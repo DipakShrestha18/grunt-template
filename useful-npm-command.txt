@@ -1,0 +1,38 @@
+https://www.npmjs.com/ - node packages repository
+
+// to create package.json file in command line.
+npm init
+
+// downloads and install all the packages listed in package.json
+npm install 
+
+// downloads packages but not add it to package.json file.
+npm install <package name>
+
+// to download and install packages as dependencies.
+npm install --save <package name>
+
+// to download and install packages as dev dependencies.
+npm install --save-dev <package name>
+
+// uninstall packages.
+npm uninstall <package name>
+
+// uninstall packages and removes from package.json file.
+npm uninstall --save-dev <package name>
+
+// list all the packages
+npm list
+
+// list all the packages installed globally.
+npm -g list 
+
+// list all the packages that has new version.
+npm outdated
+
+// deleted all the packages that is not listed in package.json file.
+npm prune
+
+// https://docs.npmjs.com/misc/scripts
+// run custom npm command
+npm run <custom command name>
